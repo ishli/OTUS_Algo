@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_2_LuckyNumbers", "1_2_LuckyNumbers\1_2_LuckyNumbers.csproj", "{20214A9D-CCA6-4B5C-8412-1EF174C098F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_3_Algebra", "1_3_Algebra\1_3_Algebra.csproj", "{C7D7A93C-FAC9-4CEA-8BAF-5174B6F7440D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{4F3A2B1C-801B-4BF8-94EB-2118F2DDB931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{20214A9D-CCA6-4B5C-8412-1EF174C098F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20214A9D-CCA6-4B5C-8412-1EF174C098F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20214A9D-CCA6-4B5C-8412-1EF174C098F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D7A93C-FAC9-4CEA-8BAF-5174B6F7440D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D7A93C-FAC9-4CEA-8BAF-5174B6F7440D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D7A93C-FAC9-4CEA-8BAF-5174B6F7440D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D7A93C-FAC9-4CEA-8BAF-5174B6F7440D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3A2B1C-801B-4BF8-94EB-2118F2DDB931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3A2B1C-801B-4BF8-94EB-2118F2DDB931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3A2B1C-801B-4BF8-94EB-2118F2DDB931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3A2B1C-801B-4BF8-94EB-2118F2DDB931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
