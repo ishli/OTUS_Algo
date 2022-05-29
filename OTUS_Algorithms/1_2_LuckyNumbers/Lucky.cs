@@ -59,21 +59,14 @@ namespace LuckyNumbers
         private void FillMatrixByBase(long[,] matrix, List<long> baseArray)
         {
 			var rowsCount = matrix.GetLength(0);
-			var columnCount = matrix.GetLength(1);
 
-            for (int i = 0; i < rowsCount; i++)
-            {
-                for (int j = 0; j < columnCount; j++)
-                {
-					if(i == j)
-                    {
-                        for (int k = 0; k < baseArray.Count; k++)
-                        {
-							matrix[i, j + k] = baseArray[k];
-                        }
-                    }
-                }
-            }
+			for (int i = 0; i < rowsCount; i++)
+			{
+				for (int k = 0; k < baseArray.Count; k++)
+				{
+					matrix[i, i + k] = baseArray[k];
+				}
+			}
 		}
 
         private List<long> GetSumOnEveryColumn(long[,] matrix)
