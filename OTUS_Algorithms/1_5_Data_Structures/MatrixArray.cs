@@ -53,7 +53,7 @@ namespace _1_5_Data_Structures
 		{
 			var result = _array[GetRow(index), GetColumn(index)];
 
-			Array.Copy(_array, index + 1, _array, index, currentLastElementIndex - index);
+			Array.Copy(_array, index + 1, _array, index, currentLastElementIndex - index - 1);
 
 			currentLastElementIndex--;
 			return result;

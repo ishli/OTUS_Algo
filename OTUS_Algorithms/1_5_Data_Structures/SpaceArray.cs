@@ -43,7 +43,7 @@ namespace _1_5_Data_Structures
 			for (int i = 0; i < currentRows; i++)
 			{
 				var columns = _array[i].Length;
-				if (index <= columns)
+				if (index < columns)
 				{
 					return _array[i][index];
 				}
@@ -63,7 +63,7 @@ namespace _1_5_Data_Structures
 			for (int i = 0; i < currentRows; i++)
 			{
 				var columns = _array[i].Length;
-				if (index <= columns)
+				if (index < columns)
 				{
 					return new KeyValuePair<int, int>(i, index);
 				}
