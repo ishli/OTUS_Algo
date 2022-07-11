@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32228.343
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_2_LuckyNumbers", "1_2_LuckyNumbers\1_2_LuckyNumbers.csproj", "{20214A9D-CCA6-4B5C-8412-1EF174C098F3}"
 EndProject
@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_4_Binary", "1_4_Binary\1_4_Binary.csproj", "{F0BDCB05-413D-4139-A275-F4427A113BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_5_Data_Structures", "1_5_Data_Structures\1_5_Data_Structures.csproj", "{1CBFAF9B-52A3-43CD-ACA7-5F2A008492A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_5_Data_Structures", "1_5_Data_Structures\1_5_Data_Structures.csproj", "{1CBFAF9B-52A3-43CD-ACA7-5F2A008492A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_6_Simple_Sorts", "1_6_Simple_Sorts\1_6_Simple_Sorts.csproj", "{69A68967-DE47-4DE9-B39A-D409254B3295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_7_Heap_Sort", "1_7_Heap_Sort\1_7_Heap_Sort.csproj", "{74B15612-6261-452F-8F3C-B73F9E53B580}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{1CBFAF9B-52A3-43CD-ACA7-5F2A008492A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CBFAF9B-52A3-43CD-ACA7-5F2A008492A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CBFAF9B-52A3-43CD-ACA7-5F2A008492A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A68967-DE47-4DE9-B39A-D409254B3295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A68967-DE47-4DE9-B39A-D409254B3295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A68967-DE47-4DE9-B39A-D409254B3295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A68967-DE47-4DE9-B39A-D409254B3295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B15612-6261-452F-8F3C-B73F9E53B580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B15612-6261-452F-8F3C-B73F9E53B580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B15612-6261-452F-8F3C-B73F9E53B580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B15612-6261-452F-8F3C-B73F9E53B580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

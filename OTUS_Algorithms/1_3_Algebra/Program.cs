@@ -10,7 +10,7 @@ namespace _1_3_Algebra
 	{
 		static void Main(string[] args)
 		{
-			ITask lucky = new Prime15();
+			ITask lucky = new Prime18();
 			var tester = new Tester(lucky, @"D:\New folder\5.Primes\");
 			tester.RunTest();
 			Console.ReadLine();
