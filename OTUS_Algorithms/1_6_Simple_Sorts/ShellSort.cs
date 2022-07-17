@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _1_6_Simple_Sorts
 {
-	internal class ShellSort
+	internal class ShellSort : ISortTask
 	{
-		private void Sort(List<int> array)
+		public void Sort(List<int> array)
 		{
 			if (array.Count <= 1)
 			{

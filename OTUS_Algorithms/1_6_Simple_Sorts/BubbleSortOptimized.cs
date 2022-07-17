@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1_6_Simple_Sorts
 {
-	public class InsertionSort : ISortTask
+	public class BubbleSortOptimized : ISortTask
 	{
 		public void Sort(List<int> array)
 		{
@@ -15,14 +15,25 @@ namespace _1_6_Simple_Sorts
 				return;
 			}
 
+			bool swapped;
+
 			for (int i = 0; i < array.Count; i++)
 			{
-				int j = i - 1;
-
-				while (j >= 0 && array[j] > array[j + 1])
+				swapped = false;
+				for (int j = 0; j < array.Count - 1; j++)
 				{
-					Common.Swap(array, j, j + 1);
-					j--;
+					if (array[j] > array[j + 1])
+					{
+						Common.Swap(array, j, j + 1);
+
+						swapped = true;
+					}
+				}
+
+
+				if (!swapped)
+				{
+					break;
 				}
 			}
 		}

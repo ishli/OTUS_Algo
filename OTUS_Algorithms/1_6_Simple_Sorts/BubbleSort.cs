@@ -6,25 +6,22 @@ using System.Threading.Tasks;
 
 namespace _1_6_Simple_Sorts
 {
-	public class BubbleSort
+	public class BubbleSort : ISortTask
 	{
-
-		private void Sort(List<int> array)
+		public void Sort(List<int> array)
 		{
-			if(array.Count <= 1)
+			if (array.Count <= 1)
 			{
 				return;
 			}
 
 			for (int i = 0; i < array.Count; i++)
 			{
-				for (int j = 0; j < array.Count -1; j++)
+				for (int j = 0; j < array.Count - 1; j++)
 				{
 					if (array[j] > array[j + 1])
 					{
-						int t = array[j];
-						array[j] = array[j + 1];
-						array[j + 1] = t;
+						Common.Swap(array, j, j + 1);
 					}
 				}
 			}

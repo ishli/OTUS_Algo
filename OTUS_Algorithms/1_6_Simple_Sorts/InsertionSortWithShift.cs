@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1_6_Simple_Sorts
 {
-	public class InsertionSort : ISortTask
+	public class InsertionSortWithShift : ISortTask
 	{
 		public void Sort(List<int> array)
 		{
@@ -17,13 +17,15 @@ namespace _1_6_Simple_Sorts
 
 			for (int i = 0; i < array.Count; i++)
 			{
+				var x = array[i];
 				int j = i - 1;
 
-				while (j >= 0 && array[j] > array[j + 1])
+				while (j >= 0 && array[j] > x)
 				{
-					Common.Swap(array, j, j + 1);
+					array[j + 1] = array[j];
 					j--;
 				}
+				array[j + 1] = x;
 			}
 		}
 	}
