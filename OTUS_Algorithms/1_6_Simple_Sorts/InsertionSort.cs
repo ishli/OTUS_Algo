@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +22,7 @@ namespace _1_6_Simple_Sorts
 
 				while (j >= 0 && array[j] > array[j + 1])
 				{
-					Common.Swap(array, j, j + 1);
+					Utils.Swap(array, j, j + 1);
 					j--;
 				}
 			}

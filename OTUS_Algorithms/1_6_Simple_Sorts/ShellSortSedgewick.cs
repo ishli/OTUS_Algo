@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,7 +31,7 @@ namespace _1_6_Simple_Sorts
 				{
 					for (int j = i; j >= h && array[j] < array[j - h]; j -= h)
 					{
-						Common.Swap(array, j, j - h);
+						Utils.Swap(array, j, j - h);
 					}
 				}
 				h = hIndex > 0 ? gaps[--hIndex] : 0;

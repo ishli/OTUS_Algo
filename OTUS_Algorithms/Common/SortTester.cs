@@ -1,18 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1_6_Simple_Sorts
+namespace Common
 {
-	public class Tester
+	public class SortTester
 	{
 		private ISortTask _task;
 		private string _path;
 
-		public Tester(ISortTask task, string path)
+		public SortTester(ISortTask task, string path)
 		{
 			_task = task;
 			_path = path;

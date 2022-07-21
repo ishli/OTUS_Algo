@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1_6_Simple_Sorts
+namespace Common
 {
 	public interface ISortTask
 	{
