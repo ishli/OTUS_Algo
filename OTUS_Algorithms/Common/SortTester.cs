@@ -25,7 +25,7 @@ namespace Common
 
 			Stopwatch stopWatch = new Stopwatch();
 
-			while (true)
+			while (true )//&& testNumber <= 4)
 			{
 				string inFile = $"{_path}test.{testNumber}.in";
 				string outFile = $"{_path}test.{testNumber}.out";

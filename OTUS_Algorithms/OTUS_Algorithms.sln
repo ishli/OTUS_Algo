@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_4_Binary", "1_4_Binary\1_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_5_Data_Structures", "1_5_Data_Structures\1_5_Data_Structures.csproj", "{1CBFAF9B-52A3-43CD-ACA7-5F2A008492A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_6_Simple_Sorts", "1_6_Simple_Sorts\1_6_Simple_Sorts.csproj", "{69A68967-DE47-4DE9-B39A-D409254B3295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_6_Simple_Sorts", "1_6_Simple_Sorts\1_6_Simple_Sorts.csproj", "{69A68967-DE47-4DE9-B39A-D409254B3295}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_7_Heap_Sort", "1_7_Heap_Sort\1_7_Heap_Sort.csproj", "{74B15612-6261-452F-8F3C-B73F9E53B580}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_7_Heap_Sort", "1_7_Heap_Sort\1_7_Heap_Sort.csproj", "{74B15612-6261-452F-8F3C-B73F9E53B580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_8_QuickSort", "1_8_QuickSort\1_8_QuickSort.csproj", "{F99AFF04-CD0F-4160-BB90-FFA2684767C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{74B15612-6261-452F-8F3C-B73F9E53B580}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74B15612-6261-452F-8F3C-B73F9E53B580}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74B15612-6261-452F-8F3C-B73F9E53B580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99AFF04-CD0F-4160-BB90-FFA2684767C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99AFF04-CD0F-4160-BB90-FFA2684767C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99AFF04-CD0F-4160-BB90-FFA2684767C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99AFF04-CD0F-4160-BB90-FFA2684767C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
